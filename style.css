@@ -1,0 +1,25 @@
+canvas {
+  border: 3px solid rgba(0, 0, 0, 0.993);
+  background-color: rgb(13, 25, 88);
+}
+.btnRestart {
+    padding: 8px 18px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(13, 25, 88);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+.btnRestart:hover {
+  background-color:  rgb(50, 65, 143);
+}
+.btnRestart:active {
+  background-color: rgb(13, 25, 88);
+  box-shadow: 0 5px #666;
+  /* when button pushed - how much it will shift. */
+  transform: translateY(1px);
+}
